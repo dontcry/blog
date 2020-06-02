@@ -1,5 +1,5 @@
 module.exports = {
     base: '/blog/',
-    title: 'blog-demo',
-    description: 'Vuepress blog demo'
+    title: 'lihr\'s blog',
+    description: '李浩然的博客'
 }
