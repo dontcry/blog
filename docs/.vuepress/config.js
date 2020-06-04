@@ -17,8 +17,21 @@ module.exports = {
         authorAvatar: './img/artist.png',
         author: 'LiHR',
         huawei: true,
+        directories: [ // 目录分类器
+            {
+                id: 'post',
+                dirname: '_posts',
+                path: '/posts/',
+                itemPermalink: '/posts/:year/:month/:day/:slug'
+            },
+        ],
         nav: [
             { text: 'Home', link: '/', icon: 'reco-home' },
+
+            {
+                text: 'Blog',
+                link: '/posts/',
+            },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
             { text: 'Guide', link: '/guide/', icon: 'reco-date' },
             {
@@ -28,7 +41,7 @@ module.exports = {
                     { text: 'English', link: '/languages/English' }
                 ], icon: 'reco-date'
             },
-            { text: '文章', link: '/NewBeginning', icon: 'reco-date' },
+            { text: '文章', link: '/posts/NewBeginning', icon: 'reco-date' },
             { text: '百度', link: 'https://www.baidu.com', icon: 'reco-date' },
         ]
     }
