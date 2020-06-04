@@ -1,10 +1,13 @@
 module.exports = {
     base: '/blog/',
-    title: 'lihr\'s blog',
+    title: 'lihr\'s blog ',
     description: 'lihr的博客',
     dest: './docs/.vuepress/dist',
     ga: '',
     evergreen: true,
+    markdown: {
+        lineNumbers: true // 代码块显示行号
+    },
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
