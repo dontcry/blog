@@ -5,13 +5,13 @@ categories: article
 tags: tools
 ---
  
-发布于 2019-01-19
+>发布于 2019-01-19
 本文主要介绍vscode在工作中常用的快捷键及插件，目标在于提高工作效率
-本文的快捷键是基于mac的，windows下的快捷键放在括号里 Cmd+Shift+P(win Ctrl+Shift+P)
+本文的快捷键是基于`mac`的，`windows`下的快捷键放在括号里 `Cmd+Shift+P(win Ctrl+Shift+P)`
 
-[TOC]
+ 
 
-零、快速入门
+### 零、快速入门
 有经验的可以跳过快速入门或者大致浏览一遍
 1. 命令面板
 命令面板是vscode快捷键的主要交互界面，可以使用`f1`或者`Cmd+Shift+P(win Ctrl+Shift+P)`打开。
@@ -23,7 +23,7 @@ tags: tools
 
 image-20190120143658078
 
-2. 界面介绍
+### 界面介绍
 刚上手使用vscode时，建议要先把它当做一个文件编辑器(可以打字然后保存)，等到有了一定经验再去熟悉那些快捷键
 先来熟悉一下界面及快捷命令(不用记)
 
