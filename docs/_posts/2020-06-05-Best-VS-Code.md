@@ -1,5 +1,10 @@
-宇宙最强vscode教程（基础篇）
-typescriptjavascriptvisual-studio-code
+---
+title: 宇宙最强vscode教程（基础篇）
+date: 2020-06-05
+categories: article 
+tags: tools
+---
+ 
 发布于 2019-01-19
 本文主要介绍vscode在工作中常用的快捷键及插件，目标在于提高工作效率
 本文的快捷键是基于mac的，windows下的快捷键放在括号里 Cmd+Shift+P(win Ctrl+Shift+P)
