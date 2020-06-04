@@ -1,10 +1,20 @@
-## This is guide
-content...
+#!/usr/bin/env sh
 
-### title3
-content...
+# 确保脚本抛出遇到的错误
+set -e
 
-### title3-01
+# 生成静态文件
+npm run docs:build
 
-## small title
-content...
+# 进入生成的文件夹
+```
+cd docs/.vuepress/dist
+
+git init
+git add -A
+git commit -m 'deploy'
+```
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+git push -f git@github.com:dontcry/blog.git master:gh-pages
+
+cd -
