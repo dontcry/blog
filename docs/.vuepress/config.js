@@ -1,6 +1,6 @@
 module.exports = {
     base: '/blog/',
-    title: 'LIHR\'s blog  ',
+    title: 'LIHR\'s blog',
     description: 'LIHR的博客',
     dest: './docs/.vuepress/dist',
     head: [
