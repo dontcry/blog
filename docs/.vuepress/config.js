@@ -3,6 +3,9 @@ module.exports = {
     title: 'LIHR\'s blog  ',
     description: 'LIHR的博客',
     dest: './docs/.vuepress/dist',
+    head: [
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+    ],
     ga: '',
     theme: 'reco',
     evergreen: true,
@@ -11,17 +14,17 @@ module.exports = {
     },
     themeConfig: {
         nav: [
+            { text: 'Home', link: '/', icon: 'reco-home' },
             { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
-            { text: 'Home', link: '/' },
-            { text: 'Guide', link: '/guide/' },
+            { text: 'Guide', link: '/guide/', icon: 'reco-date' },
             {
                 text: 'Languages',
                 items: [
                     { text: 'Chinese', link: '/languages/Chinese' },
                     { text: 'English', link: '/languages/English' }
-                ]
+                ], icon: 'reco-date'
             },
-            { text: '百度', link: 'https://www.baidu.com' },
+            { text: '百度', link: 'https://www.baidu.com', icon: 'reco-date' },
         ],
         sidebarDepth: 2,
         sidebar: [
