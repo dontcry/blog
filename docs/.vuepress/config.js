@@ -30,14 +30,6 @@ module.exports = {
             },
             { text: '文章', link: '/NewBeginning', icon: 'reco-date' },
             { text: '百度', link: 'https://www.baidu.com', icon: 'reco-date' },
-        ],
-        sidebarDepth: 2,
-        sidebar: [
-            {
-                title: 'Guide',
-                collapsable: false,
-                children: ['/guide/']
-            }
         ]
     }
 }

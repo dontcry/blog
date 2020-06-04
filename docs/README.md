@@ -1,6 +1,7 @@
 ---
 home: true 
-heroImage: /img/artists.png 
+heroImage: ./img/artists.png 
+heroText: null
 actionText: 快速上手 →
 actionLink: /guide/
 features:
